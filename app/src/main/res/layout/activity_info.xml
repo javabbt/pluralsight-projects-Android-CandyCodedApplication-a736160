@@ -25,6 +25,8 @@
         android:layout_height="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="8dp"
+        android:clickable="true"
+        android:onClick="createMapIntent"
         android:layout_marginTop="16dp"
         android:gravity="center_vertical"
         android:text="618 E South St Orlando, FL"
@@ -38,6 +40,8 @@
     <TextView
         android:id="@+id/text_view_phone"
         android:layout_width="0dp"
+        android:clickable="true"
+        android:onClick="createPhoneIntent"
         android:layout_height="30dp"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="8dp"
